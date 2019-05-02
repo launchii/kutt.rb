@@ -3,7 +3,7 @@ require 'json'
 
 class Kutt
   def initialize(apikey)
-    @base_url = 'https://huntt.me'
+    @base_url = 'https://launchii-url-shortener.herokuapp.com'
     @headers = { 'Content-Type' => 'application/json', 'Accept' => 'application/json', 'X-API-Key' => apikey}
     return true
   end
