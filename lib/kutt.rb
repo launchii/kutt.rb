@@ -3,7 +3,7 @@ require 'json'
 
 class Kutt
   def initialize(apikey)
-    @base_url = 'https://kutt.it'
+    @base_url = 'https://huntt.me'
     @headers = { 'Content-Type' => 'application/json', 'Accept' => 'application/json', 'X-API-Key' => apikey}
     return true
   end
